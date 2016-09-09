@@ -1,0 +1,6 @@
+**/.DS_Store
+.sencha/
+build/
+ext/
+bootstrap.json
+bootstrap.jsonp

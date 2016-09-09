@@ -1,0 +1,24 @@
+.chameleon * {
+    transition: background-color 0.4s !important;
+}
+
+
+/*
+ Fix for FAB button colors and border radius on mobile devices
+*/
+.x-button-fab {
+    color: $accent-foreground-color;
+    .x-big & {
+        border-radius: 50%;
+    }
+
+    .x-button-icon {
+        color: $accent-foreground-color;
+    }
+
+    &.x-button-pressing {
+        .x-button-icon {
+            color: $accent-foreground-color;
+        }
+    }
+}
